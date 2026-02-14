@@ -20,6 +20,7 @@ const WhatsAppIcon = ({ size = 22 }) => (
   </svg>
 );
 
+// eslint-disable-next-line no-unused-vars
 const LinkButton = ({ icon: Icon, title, url, subtitle, delay }) => (
   <a 
     href={url} 
