@@ -8,7 +8,12 @@ import {
   Clock, 
   Sparkles,
   ExternalLink,
-  Heart
+  Heart,
+  Gem,
+  ShoppingBag,
+  Shirt,
+  Footprints,
+  Package
 } from 'lucide-react';
 import { FaSnapchat, FaTiktok } from "react-icons/fa6";
 import './App.css';
@@ -47,15 +52,32 @@ export default function JewelryLinkTree() {
     { title: "Visit Our Website", subtitle: "jewelryboutique.co.tz", url: "https://jewelryboutique.co.tz/", icon: Globe },
     { title: "Chat on WhatsApp", subtitle: "Fastest response", url: "https://wa.me/255623125023", icon: WhatsAppIcon },
     { title: "Instagram", subtitle: "@__jewerly.boutique", url: "https://www.instagram.com/__jewerly.boutique?igsh=MWEwcHRjNXZva3Bxbg==", icon: Instagram },
-    { title: "TikTok", subtitle: "Latest jewelry trends", url: "https://www.tiktok.com/@_.asyah3?_r=1&_t=ZS-93vB91131Yy", icon: FaTiktok },
+    { title: "TikTok", subtitle: "Latest jewelry trends", url:"https://www.tiktok.com/@jewerly.boutique?_r=1&_t=ZS-95AkcEWpIm5", icon: FaTiktok },
     { title: "Snapchat", subtitle: "Username: as.yaah", url: "https://snapchat.com/t/FP8WZ1tR", icon: FaSnapchat },
   ];
 
   return (
     <div className="linktree-container">
+      {/* Aurora Background */}
+      <div className="aurora-bg" />
+      {/* Mesh Overlay */}
+      <div className="mesh-overlay" />
+      {/* Product Icons Background */}
+      <div className="product-icons">
+        <Gem size={24} className="product-icon necklace" />
+        <Gem size={24} className="product-icon bracelet" />
+        <ShoppingBag size={24} className="product-icon handbag" />
+        <Shirt size={24} className="product-icon clothing" />
+        <Package size={24} className="product-icon perfume" />
+        <Footprints size={24} className="product-icon shoes" />
+        <Gem size={24} className="product-icon necklace-2" />
+        <ShoppingBag size={24} className="product-icon handbag-2" />
+        <Shirt size={24} className="product-icon clothing-2" />
+        <Package size={24} className="product-icon perfume-2" />
+      </div>
       {/* Floating Particles */}
       <div className="particles">
-        {[...Array(6)].map((_, i) => (
+        {[...Array(16)].map((_, i) => (
           <div key={i} className={`particle p${i + 1}`} />
         ))}
       </div>
@@ -64,6 +86,15 @@ export default function JewelryLinkTree() {
       <Sparkles className="sparkle s1" />
       <Sparkles className="sparkle s2" />
       <Sparkles className="sparkle s3" />
+      <Sparkles className="sparkle s4" />
+      <Sparkles className="sparkle s5" />
+      <Sparkles className="sparkle s6" />
+      <Sparkles className="sparkle s7" />
+      <Sparkles className="sparkle s8" />
+      <Sparkles className="sparkle s9" />
+      <Sparkles className="sparkle s10" />
+      <Sparkles className="sparkle s11" />
+      <Sparkles className="sparkle s12" />
 
       <header className="header">
         <div className="logo-glow">
@@ -76,7 +107,7 @@ export default function JewelryLinkTree() {
         <h1 className="brand-heading">Jewelry Boutique</h1>
         <p className="tagline">
           <Heart size={14} className="heart-icon" />
-          Handcrafted Elegance & Timeless Beauty
+          Curated Elegance & Timeless Beauty
           <Heart size={14} className="heart-icon" />
         </p>
       </header>
