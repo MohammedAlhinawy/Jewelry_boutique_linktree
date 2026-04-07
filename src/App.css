@@ -57,7 +57,7 @@ body {
     linear-gradient(135deg, #1a0a1e 0%, #2d1b3d 25%, #1a0a2e 50%, #2d1025 75%, #1a0a1e 100%);
 }
 
-.aurora-bg::before {
+/* .aurora-bg::before {
   content: '';
   position: absolute;
   width: 200%;
@@ -73,7 +73,7 @@ body {
   animation: auroraShift 18s ease-in-out infinite alternate;
 }
 
-/* .aurora-bg::after {
+.aurora-bg::after {
   content: '';
   position: absolute;
   width: 200%;
@@ -96,14 +96,14 @@ body {
 }
 
 /* ===== Mesh Overlay ===== */
-/* .mesh-overlay {
+.mesh-overlay {
   position: fixed;
   inset: 0;
   z-index: 0;
   background: 
     linear-gradient(180deg, transparent 0%, rgba(26, 10, 30, 0.3) 100%);
   pointer-events: none;
-} */
+}
 
 /* ===== Container ===== */
 .linktree-container {
