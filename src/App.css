@@ -51,12 +51,10 @@ body {
   z-index: 0;
   overflow: hidden;
   background: 
-    radial-gradient(ellipse at 20% 20%, rgba(255, 71, 126, 0.25) 0%, transparent 55%),
-    radial-gradient(ellipse at 80% 80%, rgba(255, 10, 84, 0.2) 0%, transparent 55%),
-    radial-gradient(ellipse at 50% 50%, rgba(251, 177, 189, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 30% 80%, rgba(255, 99, 172, 0.18) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 20%, rgba(247, 202, 208, 0.15) 0%, transparent 50%),
-    linear-gradient(160deg, #4a1232 0%, #5c1a3e 20%, #6b2048 40%, #5c1a3e 60%, #4a1232 80%, #5c1a3e 100%);
+    radial-gradient(ellipse at 20% 30%, rgba(251, 177, 189, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(255, 10, 84, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(255, 255, 255, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, #1a0a1e 0%, #2d1b3d 25%, #1a0a2e 50%, #2d1025 75%, #1a0a1e 100%);
 }
 
 .aurora-bg::before {
@@ -871,7 +869,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(74, 18, 50, 0.5);
+  background: rgba(26, 10, 30, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
