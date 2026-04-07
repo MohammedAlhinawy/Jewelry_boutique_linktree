@@ -41,8 +41,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--dark);
   overflow-x: hidden;
-  background: linear-gradient(160deg, #3d0f2b 0%, #4a1232 30%, #3d0f2b 60%, #4a1232 100%);
-  background-attachment: fixed;
+  background: #1a0a1e;
 }
 
 /* ===== Aurora Background ===== */
