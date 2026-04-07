@@ -57,7 +57,7 @@ body {
     linear-gradient(135deg, #1a0a1e 0%, #2d1b3d 25%, #1a0a2e 50%, #2d1025 75%, #1a0a1e 100%);
 }
 
-/* .aurora-bg::before {
+.aurora-bg::before {
   content: '';
   position: absolute;
   width: 200%;
@@ -85,7 +85,7 @@ body {
     radial-gradient(ellipse 600px 400px at 35% 65%, rgba(249, 190, 199, 0.12) 0%, transparent 70%),
     radial-gradient(ellipse 400px 600px at 55% 25%, rgba(255, 250, 250, 0.1) 0%, transparent 70%);
   animation: auroraShift 22s ease-in-out 3s infinite alternate-reverse;
-} */
+}
 
 @keyframes auroraShift {
   0% { transform: translate(0, 0) rotate(0deg); }
