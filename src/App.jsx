@@ -58,7 +58,8 @@ export default function JewelryLinkTree() {
 
   return (
     <div className="linktree-container">
-      {/* Aurora Background */}
+      {/* Mesh Overlay */}
+      <div className="mesh-overlay" />
       {/* Product Icons Background */}
       <div className="product-icons">
         <Gem size={24} className="product-icon necklace" />
