@@ -9,6 +9,7 @@
       content="Jewelry Boutique Tanzania – Curated elegance & timeless beauty. Shop rings, necklaces, bracelets and more."
     />
     <meta name="theme-color" content="#ff0a54" />
+    <link rel="manifest" href="/manifest.json" />
     <meta property="og:title" content="Jewelry Boutique Tanzania" />
     <meta
       property="og:description"
@@ -21,5 +22,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
   </body>
 </html>

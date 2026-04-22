@@ -1,0 +1,22 @@
+{
+  "name": "Jewelry Boutique Tanzania",
+  "short_name": "Jewelry Boutique",
+  "description": "Curated elegance & timeless beauty – Shop rings, necklaces, bracelets and more from Jewelry Boutique Tanzania.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a0a1e",
+  "theme_color": "#ff0a54",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+}
